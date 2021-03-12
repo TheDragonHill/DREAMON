@@ -1,0 +1,732 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &387284189409848624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 266097371674798222}
+  m_Layer: 0
+  m_Name: CamPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &266097371674798222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387284189409848624}
+  m_LocalRotation: {x: -0.15657142, y: 0.29883164, z: -0.049669877, w: -0.94006276}
+  m_LocalPosition: {x: 7.4904785, y: 0.47923684, z: -0.15433502}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7156026689946373128}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7156026689946373129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7156026689946373128}
+  - component: {fileID: 7156026689946373135}
+  - component: {fileID: 1133812109691748872}
+  m_Layer: 0
+  m_Name: StartDialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7156026689946373128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7156026689946373129}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.213, y: 3.328, z: 0.07}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 266097371674798222}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7156026689946373135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7156026689946373129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bdce08c02355b94ab3da141e9827148, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasInteracted: 1
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineSpacing: 0.01
+  radius: 3
+  interactionTransform: {fileID: 0}
+  hasFocused: 1
+  dialogue:
+  - option:
+    - endSentence: 1
+      nextMinigame: 1
+      talks:
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Lying
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: Ego_ HiddenInElios
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 0}
+        cameraTarget: {fileID: 0}
+        name: 
+        sentence: '[A Man lies on the ground]'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ GrowingOutOfElios
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: bb31dedab7151bf438a0c1f37e94ce5c, type: 3}
+        cameraTarget: {fileID: 0}
+        name: 
+        sentence: '[A Creature is growing out of him.]'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Waking_Up
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: Ego_ LookingAtElios
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 0}
+        cameraTarget: {fileID: 0}
+        name: 
+        sentence: '[It wants to go forward, but is sticking to the Man''s body]'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Getting_Up
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: Ego_Idle_02
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 4090ea609ce4fc94896cb15395fe6887, type: 3}
+        cameraTarget: {fileID: 0}
+        name: 
+        sentence: '[Both are looking to the center of their bodies and then to each
+          other.] '
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Wow
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 0}
+        cameraTarget: {fileID: 0}
+        name: ' '
+        sentence: '[The Man gets up quickly.] '
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Frightened
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 10e79216213852e47ad79dfaf96502ba, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Creature
+        sentence: "(looking around) Wow... this place is so amazing! I can\u2019t
+          believe it!"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Looking
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 432202ea2a66fff4da99a4f4044a4da9, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Man
+        sentence: "Wha\u2026? Who are you?"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Questioning
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: e99295ca771ca794896f2324e8501189, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Creature
+        sentence: Wait a moment... I can't move! Where are my legs?!
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 5f82e4c00225e974ea4823008af81afb, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Man
+        sentence: How should I know? What are you doing on my side?
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Wow
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: c07a970965d582b43af547235e074994, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Oh\u2026 Ehm...hey... my name is Ego, and yours\u2026?"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Depressive
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 347aa607581fc0e4297b160f971b2f81, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "[depressed sighs] Elios\u2026"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Questioning
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: c07a970965d582b43af547235e074994, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Ehm\u2026 Do you know this place?"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: 
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 63405c3e5a3b3654f9156839a9381b31, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: No...
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Exited
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 01d5de9bed787b247adc9f214f318c78, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: Are you alone here?
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Rejecting
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 28d98e7573b34eb45a8a02d03a9f5a95, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: I guess so.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Dissappointed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 923cf273a96e6c744ad513532a81688c, type: 3}
+        cameraTarget: {fileID: 0}
+        name: 'Ego '
+        sentence: "Not today! Let\u2019s be friends!"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 9344f524d080ace4fae3dc5f53bc5855, type: 3}
+        cameraTarget: {fileID: 0}
+        name: 'Elios '
+        sentence: "I don\u2019t want a friend now...\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Begging
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: cf5c69dd039512f4286b52806f079192, type: 3}
+        cameraTarget: {fileID: 0}
+        name: 'Ego '
+        sentence: "Too bad\u2026 So you already have a friend?"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Rejecting
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 581845f88e1b648439223407ee6560fe, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: No. I am not interested.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_Absent
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: a4252ca2f5cca1843bf8c3f2f5891b28, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "No? So let\u2019s be friends then!"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 0044ed43783c1424393b48e70483ef6a, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "Get off me... I am not in the mood for speaking\u2026"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Exited
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: a4252ca2f5cca1843bf8c3f2f5891b28, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Maybe...if we play a game\u2026I will go."
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Depressive
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 5f82e4c00225e974ea4823008af81afb, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "[sighs] If you say so\u2026 "
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Exited
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 10e79216213852e47ad79dfaf96502ba, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Really\u2026?! Awesome! You good at chess?"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Rejecting
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: c4944a2a12c75ff45bd578379260613a, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "Not really\u2026\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Amused
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: cf967cc205dece447bf587418eb541b4, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "This one is easy, don\u2019t worry! \r\n"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Serious
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: fac248c5553edd44ea6a6edb52a633b1, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "You just have to put one of your figures behind mine. \r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Wow
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 0}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "If you reach the last line you win! \r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ LookingAtEgo
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 9b340d1cbb3b10a4a95883fdaec44d0b, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "That\u2019s all?\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Questioning
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: c2951428792baeb4f98b151c02e0be38, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: Ohh, I forgot.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Amused
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: e99295ca771ca794896f2324e8501189, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Your figures will be destroyed when they hit mine... hihihi\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Exited
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 2486578f8d56c93469db60d2a9633aa6, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Let\u2019s play! Let\u2019s play! Let\u2019s play! \r"
+      decisions: []
+      nextDecisions: 
+  - option:
+    - endSentence: 1
+      nextMinigame: 0
+      talks:
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Depressive
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 9933a0f5aef25b54192697c4ca534ad4, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "Uhh\u2026 I didn\u2019t win."
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ PleasentlySuprised
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: e99295ca771ca794896f2324e8501189, type: 3}
+        cameraTarget: {fileID: 0}
+        name: 'Ego '
+        sentence: "Yea\u2026 of course I won, I knew it!"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: a354f5ed07a53a644a26dede0329ecbd, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: '[sighs]
+
+'
+      decisions: []
+      nextDecisions: 
+  - option:
+    - endSentence: 1
+      nextMinigame: 0
+      talks:
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ FakeSmile
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 14b43c25e0d3a73448efb11e2fb07fec, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "Oh\u2026 I suppose I won\u2026"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Begging
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 2486578f8d56c93469db60d2a9633aa6, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Yea, you won... I wanna play again! Please\u2026 Please\u2026.
+          Please\u2026.!"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ LookingAtEgo
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 8f61ba6446d64884c8b3307929a6a2cd, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: 'No. I won. We had a deal...
+
+'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Serious
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: a4252ca2f5cca1843bf8c3f2f5891b28, type: 3}
+        cameraTarget: {fileID: 0}
+        name: 'Ego '
+        sentence: "I said maybe\u2026 no matter if you win or lose I will be with
+          you... "
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 8dcdb9d935856dc4b9097e5c096deb67, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: '[sighs]'
+      decisions: []
+      nextDecisions: 
+  currentDialogue: 0
+  minigameManager: {fileID: 1133812109691748872}
+  camPosition: {fileID: 266097371674798222}
+  source: {fileID: 0}
+  chessTalk:
+  - dialogAction: {fileID: 0}
+    animation:
+      animator: {fileID: 0}
+      AnimationStateName: 
+      secondAnimator: {fileID: 0}
+      SecondAnimationStateName: 
+    audio:
+      source: {fileID: 0}
+      clip: {fileID: 8300000, guid: 5f82e4c00225e974ea4823008af81afb, type: 3}
+    cameraTarget: {fileID: 0}
+    name: Elios
+    sentence: "How annoying\u2026"
+    delay: 3
+    resultIndex: 0
+  - dialogAction: {fileID: 0}
+    animation:
+      animator: {fileID: 0}
+      AnimationStateName: 
+      secondAnimator: {fileID: 0}
+      SecondAnimationStateName: 
+    audio:
+      source: {fileID: 0}
+      clip: {fileID: 8300000, guid: e99295ca771ca794896f2324e8501189, type: 3}
+    cameraTarget: {fileID: 0}
+    name: Ego
+    sentence: "Finally\u2026! It\u2019s playtime!"
+    delay: 5
+    resultIndex: 0
+  - dialogAction: {fileID: 0}
+    animation:
+      animator: {fileID: 0}
+      AnimationStateName: 
+      secondAnimator: {fileID: 0}
+      SecondAnimationStateName: 
+    audio:
+      source: {fileID: 0}
+      clip: {fileID: 8300000, guid: d142c2a68d0ff4f4880da82fc7ea9ac6, type: 3}
+    cameraTarget: {fileID: 0}
+    name: Ego
+    sentence: "How did you do that?! You\u2019re the best!"
+    delay: 5
+    resultIndex: 0
+  - dialogAction: {fileID: 0}
+    animation:
+      animator: {fileID: 0}
+      AnimationStateName: 
+      secondAnimator: {fileID: 0}
+      SecondAnimationStateName: 
+    audio:
+      source: {fileID: 0}
+      clip: {fileID: 8300000, guid: 085c0ca568d102c4284a689a9cef11ea, type: 3}
+    cameraTarget: {fileID: 0}
+    name: Elios
+    sentence: "How do you know\u2026"
+    delay: 5
+    resultIndex: 0
+  tutorialTalk:
+  - dialogAction: {fileID: 0}
+    animation:
+      animator: {fileID: 0}
+      AnimationStateName: 
+      secondAnimator: {fileID: 0}
+      SecondAnimationStateName: 
+    audio:
+      source: {fileID: 0}
+      clip: {fileID: 8300000, guid: a4252ca2f5cca1843bf8c3f2f5891b28, type: 3}
+    cameraTarget: {fileID: 0}
+    name: Ego
+    sentence: Why dont you try to look around a bit, by holding the right mouse button?
+    delay: 2
+    resultIndex: 0
+  - dialogAction: {fileID: 0}
+    animation:
+      animator: {fileID: 0}
+      AnimationStateName: 
+      secondAnimator: {fileID: 0}
+      SecondAnimationStateName: 
+    audio:
+      source: {fileID: 0}
+      clip: {fileID: 8300000, guid: fac248c5553edd44ea6a6edb52a633b1, type: 3}
+    cameraTarget: {fileID: 0}
+    name: Ego
+    sentence: Get a closer look by scrolling your mouse wheel.
+    delay: 2
+    resultIndex: 0
+  - dialogAction: {fileID: 0}
+    animation:
+      animator: {fileID: 0}
+      AnimationStateName: 
+      secondAnimator: {fileID: 0}
+      SecondAnimationStateName: 
+    audio:
+      source: {fileID: 0}
+      clip: {fileID: 8300000, guid: dbe779a1da4a27749a9443ec1be4debf, type: 3}
+    cameraTarget: {fileID: 0}
+    name: 
+    sentence: Elios! comon lets go over there! its easy! just hold your left mouse
+      button to walk.
+    delay: 4
+    resultIndex: 0
+  - dialogAction: {fileID: 0}
+    animation:
+      animator: {fileID: 0}
+      AnimationStateName: 
+      secondAnimator: {fileID: 0}
+      SecondAnimationStateName: 
+    audio:
+      source: {fileID: 0}
+      clip: {fileID: 8300000, guid: cf967cc205dece447bf587418eb541b4, type: 3}
+    cameraTarget: {fileID: 0}
+    name: 
+    sentence: Oh wow the little light goes red if you can interact with something!
+      Left click, left click, left click!!
+    delay: 5
+    resultIndex: 0
+--- !u!114 &1133812109691748872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7156026689946373129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c4268f7c154c645be5dcf1130bf241, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camTarget: {fileID: 0}
+  mainCamera: {fileID: 0}
+  cameraPosition: {fileID: 0}
+  minigame: {fileID: 0}
+  cameraController: {fileID: 0}
+  winRounds: 0
+  loseRounds: 0
+  nextWinDialog: 02000000
+  nextLoseDialog: 01000000
+  player: {fileID: 0}

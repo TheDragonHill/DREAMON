@@ -1,0 +1,3536 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1657253037
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1657253038}
+  m_Layer: 0
+  m_Name: DementumFace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1657253038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657253037}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3948088798866388312}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1415162976550097892
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1373807525235331037}
+  m_Layer: 0
+  m_Name: LostPlayerPos
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1373807525235331037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415162976550097892}
+  m_LocalRotation: {x: -0, y: -0.7250832, z: -0, w: -0.6886613}
+  m_LocalPosition: {x: 5.2799997, y: -2.43, z: 9.773}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 219572550171235772}
+  m_Father: {fileID: 5219269308381401104}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -267.048, z: 0}
+--- !u!95 &1784327008
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613621237768411206}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: c62829019ee62214a85b2ed1adb2b952, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &2815257288858766943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 219572550171235772}
+  m_Layer: 0
+  m_Name: LostCamPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &219572550171235772
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2815257288858766943}
+  m_LocalRotation: {x: -0.42067054, y: 0.11045233, z: -0.052889634, w: -0.8989101}
+  m_LocalPosition: {x: 1.402, y: 3.7823274, z: -1.959}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1373807525235331037}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2959868926908075439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4132076722556807739}
+  m_Layer: 0
+  m_Name: CameraPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4132076722556807739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2959868926908075439}
+  m_LocalRotation: {x: 0.14968535, y: 0.6649365, z: -0.13869646, w: 0.7184825}
+  m_LocalPosition: {x: -1.7060814, y: 1.0741622, z: 1.955965}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5219269308381401104}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3806040174959881313
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1859216236295679692}
+  m_Layer: 0
+  m_Name: InteractionTarget
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1859216236295679692
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3806040174959881313}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -2.5, z: 3.16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 5219269308381401104}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &5219269308381401114
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5219269308381401104}
+  - component: {fileID: 1605131746}
+  - component: {fileID: 5219269308381401115}
+  - component: {fileID: 2510484452659403245}
+  - component: {fileID: 1080324107628060643}
+  m_Layer: 0
+  m_Name: DrunkDemon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 1
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &5219269308381401104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5219269308381401114}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.337, y: 2.71, z: -5.99}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1859216236295679692}
+  - {fileID: 4132076722556807739}
+  - {fileID: 1373807525235331037}
+  - {fileID: 2323824626530036309}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1605131746
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5219269308381401114}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5219269308381401115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5219269308381401114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7c4268f7c154c645be5dcf1130bf241, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camTarget: {fileID: 0}
+  mainCamera: {fileID: 0}
+  cameraPosition: {fileID: 0}
+  minigame: {fileID: 0}
+  cameraController: {fileID: 0}
+  winRounds: 0
+  loseRounds: 0
+  nextWinDialog: 0300000004000000
+  nextLoseDialog: 0100000002000000
+  player: {fileID: 0}
+--- !u!114 &2510484452659403245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5219269308381401114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7370e93f5d3bec34ab9fe648c44b2d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasInteracted: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineSpacing: 0.01
+  radius: 0.25
+  interactionTransform: {fileID: 1859216236295679692}
+  hasFocused: 1
+  dialogue:
+  - option:
+    - endSentence: 0
+      nextMinigame: 0
+      talks:
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Drinking
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 93cdf65833310c94f8090c44f69fa1ac, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Hey you brat, I need your help. We\u2019re gonna play a game!"
+      decisions:
+      - Are you talking to me?
+      - Whatever, but let it be fast...
+      - No. I am not into games anymore.
+      nextDecisions: 010000000200000003000000
+    - endSentence: 0
+      nextMinigame: 0
+      talks:
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Uncomfortable
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 01d5de9bed787b247adc9f214f318c78, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "What the\u2026Ohm\u2026 Why is he naked?"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 0}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: ...
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Drunk
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: e903f4f58ca2cc540b188b065b4710e8, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: You bet! Or is there any other soul?
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ FakeSmile
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 60096453801765a4b96fbe5c3bd367c8, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: 'I guess not.
+
+'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Questioning
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: cf967cc205dece447bf587418eb541b4, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: Hey, listen to me! I am here!
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Pushy
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 6bd64e4495f545d4ca90e99e31547747, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: What are you waiting for? Get your ass here and drink a bottle
+          of booze!
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Sulky
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 72060bdda6738274eb15f48f21468696, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "You\u2019re rude and naked\u2026 "
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ LookingAtEgo
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 63405c3e5a3b3654f9156839a9381b31, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: 'I am not interested.
+
+'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Tick
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 335b6cdedd2730b49a3f63aa4863f06e, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "You have any idea who you\u2019re talking to? Show some respect
+          and drink with an old man!"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Rejecting
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 87be85cd20ce50544b0a13768fd6d4e4, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "But I don\u2019t drink anymore."
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Bragging
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 93cdf65833310c94f8090c44f69fa1ac, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "You shut up! Y\u2019all know nothing! You are so weak\u2026 "
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_Accused
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 0044ed43783c1424393b48e70483ef6a, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "How do you know?\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Rude
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 5c0465711ef72a54985e99a95526900a, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Haven\u2019t you even noticed yet? You left your wife night by
+          night. "
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Pushy
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: c6b7a00e4fcb7d84a83c66b3f533141e, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: 'All the empty bottles in front of your eyes. Are you that blind!? '
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_Accused
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 0044ed43783c1424393b48e70483ef6a, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: Stop it.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Telling
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 60383e57bc511cc47b97d01ed91c9f77, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Broken relationship with the whole family, total isolation and\u2026
+          the wish to die\u2026. doesn\u2019t it remind you of somebody! "
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Stop_It
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 5f743877ef78af44389212b2a810cb9e, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: 'Stop it.
+
+'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Tick
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 715697622ab1054459093c0b5d09aea4, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "You coward! Remember the pain you feel\u2026 about the kiss\u2026
+          about the love\u2026 about the betrayal\u2026"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Stop_It_Stop_It
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 0044ed43783c1424393b48e70483ef6a, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: 'STOP IT! STOP IT! STOP IT!
+
+'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Calmdown
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 8d6af9e058150954988a34a5a2fab5e0, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Calm down buddy. Calm down. He is just teasing you. Let\u2019s
+          play the game with him. Trust me, it\u2019s gonna be fun.\n"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Rude
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 838132bc4587c6e4a8ef79f6df1bdbb1, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Do you never want to face things... ? Hopeless\u2026 \r\n"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: ecfcadf9efbc06e4b9bbe5365063064f, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "[exhausted exhale] \r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Rejecting
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 05b282e63f63fd8488503092961297ea, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "Whatever...  I just want to leave this place. \r\n"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ LookingAtEgo
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 8f61ba6446d64884c8b3307929a6a2cd, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "Let it be a fast game, please... I am exhausted. \r\n"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Begging
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: fac248c5553edd44ea6a6edb52a633b1, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Common' Elios, don\u2019t be so tired and boring. \r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Demanding
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: e99295ca771ca794896f2324e8501189, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "It\u2019s Playtime!!!"
+      decisions:
+      - Fine!
+      nextDecisions: 02000000
+    - endSentence: 1
+      nextMinigame: 1
+      talks:
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Laughing
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: de5cce5bcad96de439d2bf060cf67284, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: ...
+        sentence: Dementum reveals his face and smiles.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Frightened
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 59e382a324150334bab5e5c5ebc148f5, type: 3}
+        cameraTarget: {fileID: 0}
+        name: 'Ego '
+        sentence: Ahhhhh.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Uncomfortable
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: d6b2b703382f70342be95627e31a981c, type: 3}
+        cameraTarget: {fileID: 0}
+        name: 'Ego '
+        sentence: "What\u2019s that ugly thing! What\u2019s happening! Elios protect
+          me!"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 2525df8f397fc604b8ecc601c3f4e5f0, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "How annoying\u2026"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Serious
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 2bf2eb8caf6728941a2084299ff5a7dd, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Finally. Took you long enough to face me\u2026"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: c4944a2a12c75ff45bd578379260613a, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "I know.\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Uncomfortable
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 7f8ed00a851bfe4488ba24227d5e117f, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Hey Elios. I\u2026 I don\u2019t feel safe here. Can we go?\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Serious
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 8f61ba6446d64884c8b3307929a6a2cd, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: 'No, we stay.
+
+'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Laughing
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 79bf04bad98ff5d41b7268555371646b, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: 'Good, really good. Haha [coughs] '
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Pushy
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 5e7e913a75d9d5d4b83cf6f0c48f4d88, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: You know what I really like about the booze?
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_Accused
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 0}
+        cameraTarget: {fileID: 0}
+        name: 'Elios '
+        sentence: ' [presses lips together to a thin line] ...'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_Adore
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 3fb2e2ca67c5d6d44b2d8b98e1dcb73c, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: 'Dementum '
+        sentence: " It\u2019s the golden elixir! You gotta try this joyness... to
+          fall in love! "
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Exited
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: d142c2a68d0ff4f4880da82fc7ea9ac6, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Wow... That sounds so beautiful! We really need to drink it, Elios!\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: e3c3e34e6278f7c49b2eb365572bf4af, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: '[sad sighs]'
+      - dialogAction: {fileID: 1784327010}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Getting_Drinks
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 0}
+        cameraTarget: {fileID: 1657253038}
+        name: 
+        sentence: "Dementum brings four jugs in front of Elios and Ego.\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Explaining_Game1
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 740d2115fa652a64fa6238b543d85759, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: Open your lug holes, kid.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Explaining_Game2
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 3fb2e2ca67c5d6d44b2d8b98e1dcb73c, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: 'I have two kind of drinks here. '
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Explaining_Game3
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: c4944a2a12c75ff45bd578379260613a, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: 'Just tell me which one do I have to drink to win?
+
+'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Cheers
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: ae7e77cbb710c64458884a6ba5e05055, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Haha. You can\u2019t listen one second, can\u2019t you?...\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Pushy
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: aae5ca03677f4f246bbf06e4a6b6722b, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "It's the most disgusting tasting substance ever. \r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Tick
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 8f2548d33bdc19f4ea8ebb4d4e837211, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Simple water is your way to victory\u2026 \r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Questioning
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: e0d647d5e72e4cd46af86bc9e36e500f, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Ohm\u2026 Elios, I hope at least you try the golden elixir, right?\r
+          \r"
+      - dialogAction: {fileID: 1964637117}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Drinking
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 0}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: ...
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Cheers
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 79bf04bad98ff5d41b7268555371646b, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Cheers! Let\u2019s see how much you can deal with."
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Demanding
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 2486578f8d56c93469db60d2a9633aa6, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Finally! Let\u2019s drink it all at once! haha"
+      decisions: []
+      nextDecisions: 
+    - endSentence: 1
+      nextMinigame: 1
+      talks:
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Questioning
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: cf5c69dd039512f4286b52806f079192, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Wait Elios! Why do you say no? We haven\u2019t even played yet."
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Serious
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 05b282e63f63fd8488503092961297ea, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: No.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Begging
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 69657c8175f8c094a88ae78d6f05e0a4, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Oh come on! Don\u2019t be a douchebag. It\u2019s gonna be fun. "
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Serious
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 5c0465711ef72a54985e99a95526900a, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Consider your decision well, kid\u2026 before your time runs out. "
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: b4f5415d47ed9de4ca047e423add0689, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: No.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Laughing
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: de5cce5bcad96de439d2bf060cf67284, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: You need to face me to find the way out of here.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 9fe6c9db52d54e443a1edea255852bdf, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: '[sighs]
+
+'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Exited
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: bde4b0b52df76f248a80ea0461de793b, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Yes! You won\u2019t regret it Elios. I have a good feeling about
+          this. hihi\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Rejecting
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 1d2ace3c2b61b9d488a37a1b457624bf, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "You just want to drink what he offers\u2026\r\n"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Amused
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 923cf273a96e6c744ad513532a81688c, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Maybe\u2026 hihi\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Depressive
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 63405c3e5a3b3654f9156839a9381b31, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "Alright. We play. \r\n"
+      - dialogAction: {fileID: 1784327010}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Getting_Drinks
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 0}
+        cameraTarget: {fileID: 1657253038}
+        name: ' '
+        sentence: 'Dementum brings the jugs in front of Elios and Ego. '
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Explaining_Game1
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: c6b7a00e4fcb7d84a83c66b3f533141e, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: Open your lug holes, kid.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Explaining_Game2
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 3fb2e2ca67c5d6d44b2d8b98e1dcb73c, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "I have two kinds of drinks here\u2026"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 9fe6c9db52d54e443a1edea255852bdf, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: 'Just tell me which one do I have to drink to win?
+
+'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Explaining_Game3
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 624e81582a583694fbb765b287ec3452, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Haha. You can\u2019t listen one second, can\u2019t you?...\r\n"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Telling
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 7d639427b2e2a9d4b923297ba9f5dbc0, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "It's the most disgusting tasting substance ever. \r\n"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Pushy
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: aae5ca03677f4f246bbf06e4a6b6722b, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Simple water is your way to victory\u2026 \r\n"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Exited
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: dbe779a1da4a27749a9443ec1be4debf, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Ohm\u2026 Elios, I hope at least you try the golden elixir, right?\r\n"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_Accused
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 0}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: ...
+      - dialogAction: {fileID: 1650828342}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Cheers
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 0ac3e1c61abc3c448a996ae357061bbb, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Cheers! Let\u2019s see how much you can deal with."
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Demanding
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: bde4b0b52df76f248a80ea0461de793b, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Finally! Let\u2019s drink it all at once! haha"
+      decisions: []
+      nextDecisions: 
+  - option:
+    - endSentence: 1
+      nextMinigame: 1
+      talks:
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Drunk
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 9810126b30f1c474c900feea3f9028c9, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "I knew you couldn\u2019t resist! Do you feel free now?"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Calmdown
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 7d9255ee9baff3c44bfac79193896cb8, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: Chill out, Elios. Take it easy! We feel great!
+      decisions: []
+      nextDecisions: 
+  - option:
+    - endSentence: 1
+      nextMinigame: 0
+      talks:
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Telling
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 39fb5c9f074f6fb47beec7fd3280af64, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: Ohh, Elios. You gutted me. I have to admit, I expected better from
+          you.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Laughing
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 0}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "You can\u2019t make it. I am a part of you. hahaha"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Dissappointed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 7f8ed00a851bfe4488ba24227d5e117f, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Why can\u2019t you handle a little bit of alcohol?"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Rejecting
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 9933a0f5aef25b54192697c4ca534ad4, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "I don\u2019t like it\u2026"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Sulky
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: d6c0854627835d8409843ce3228285fe, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Hmpf... But we\u2019ve lost, because of your stupid resistance\u2026"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Demanding
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: dbe779a1da4a27749a9443ec1be4debf, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "I\u2019d love to drink more of this\u2026 joyness\u2026 "
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Annoyed
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 9fe6c9db52d54e443a1edea255852bdf, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "...  \r"
+      decisions: []
+      nextDecisions: 
+  - option:
+    - endSentence: 1
+      nextMinigame: 1
+      talks:
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Tick
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 6bd64e4495f545d4ca90e99e31547747, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: 'You gotta be kidding me! How dare you ruin my game! '
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ PleasentlySuprised
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: cf967cc205dece447bf587418eb541b4, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: We won?... I mean, of course we did!
+      decisions: []
+      nextDecisions: 
+  - option:
+    - endSentence: 1
+      nextMinigame: 0
+      talks:
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Bottle_Fall
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 44da30d9754908f4592e27810275d421, type: 3}
+        cameraTarget: {fileID: 0}
+        name: 
+        sentence: A bottle falls to the ground.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Endpart1
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: Ego_ Relieved
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: cf967cc205dece447bf587418eb541b4, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: 'Yes! We did it! We won against this ugly thing!
+
+'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Rude
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 335b6cdedd2730b49a3f63aa4863f06e, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Ahhhh. Please drink more! It can\u2019t end like this! \r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Serious
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 8f61ba6446d64884c8b3307929a6a2cd, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: Get out of my sight! We had enough.
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Tick
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 1675d13edf7479541a15125eccff9631, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "Don\u2019t you love me anymore?\n"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Pushy
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: e903f4f58ca2cc540b188b065b4710e8, type: 3}
+        cameraTarget: {fileID: 1657253038}
+        name: Dementum
+        sentence: "You can\u2019t escape me, I am part of you, Elios! \r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ Stop_It
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 1d2ace3c2b61b9d488a37a1b457624bf, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: 'Stop it! We have nothing more to say!
+
+'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Endpart1
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 335b6cdedd2730b49a3f63aa4863f06e, type: 3}
+        cameraTarget: {fileID: 5219269308381401104}
+        name: Dementum
+        sentence: '[Screams]'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 1784327008}
+          AnimationStateName: Dementum_ Endpart2
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 1080324107628060643}
+          clip: {fileID: 8300000, guid: 335b6cdedd2730b49a3f63aa4863f06e, type: 3}
+        cameraTarget: {fileID: 5219269308381401104}
+        name: 
+        sentence: Dementum is flying backwards and dissapears into the darkness...
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Questioning
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: cf5c69dd039512f4286b52806f079192, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "Wow\u2026 that came unexpected. How could he be a part of you?\r"
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Emo_ LookingAtEgo
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 63405c3e5a3b3654f9156839a9381b31, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: "Who knows\u2026 "
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Exited
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 8d6af9e058150954988a34a5a2fab5e0, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: "He left this bottle on the ground. Maybe it\u2019s worth a look.\r"
+      decisions: []
+      nextDecisions: 
+  currentDialogue: 0
+  minigameManager: {fileID: 5219269308381401115}
+  camPosition: {fileID: 4132076722556807739}
+  source: {fileID: 1080324107628060643}
+  objectsToDeactivate:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  lostCandleLight: {fileID: 0}
+  deathAnimationTime: 6
+  tavernpoltergeister:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  blocker: {fileID: 0}
+  lostDialogue:
+  - option:
+    - endSentence: 1
+      nextMinigame: 0
+      talks:
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Lying
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: Ego_Absent
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 5f82e4c00225e974ea4823008af81afb, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: '[Sigh]'
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Ego_ Questioning
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: 
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: c07a970965d582b43af547235e074994, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Ego
+        sentence: Why are the lights out???
+      - dialogAction: {fileID: 0}
+        animation:
+          animator: {fileID: 0}
+          AnimationStateName: Elios_Getting_Up
+          secondAnimator: {fileID: 0}
+          SecondAnimationStateName: Ego_Idle_02
+        audio:
+          source: {fileID: 0}
+          clip: {fileID: 8300000, guid: 581845f88e1b648439223407ee6560fe, type: 3}
+        cameraTarget: {fileID: 0}
+        name: Elios
+        sentence: Whatever...
+      decisions: []
+      nextDecisions: 
+  lostCameraTransform: {fileID: 219572550171235772}
+  lostPlayerPos: {fileID: 1373807525235331037}
+  backgroundMusicClip: {fileID: 8300000, guid: 3fcbb4bdb22ac2a489e2766d46a5e8a0, type: 3}
+  blackScreen: {fileID: 0}
+  blackScreenStateName: Crossfade_End
+  activateObject: {fileID: 0}
+  lightSpawn: {fileID: 0}
+  animator: {fileID: 1784327008}
+  idleAnimations:
+  - Dementum_ Idle1
+  - Dementum_ Idle2
+--- !u!82 &1080324107628060643
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5219269308381401114}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: -2670160846787771562, guid: aaf1ef32f3fd50c4d9bb9cea86e36964,
+    type: 2}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 10
+  MaxDistance: 20
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1784327010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5519899311698007704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b47e29d4555a7f48942f9268dc24914, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToAppear: {fileID: 5519899311698007704}
+  visible: 1
+  delay: 2
+--- !u!114 &1964637117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5519899311698007704}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc66bdfa0d129cc44905f1619eb0db3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToAppear: {fileID: 5519899311698007704}
+  visible: 1
+--- !u!114 &1650828342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5519899312072875817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc66bdfa0d129cc44905f1619eb0db3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToAppear: {fileID: 5519899312072875817}
+  visible: 0
+--- !u!1001 &138350442
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2301484065781715814}
+    m_Modifications:
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.312
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.165
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.016
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.41015816
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9005802
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.05158321
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.13440476
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -11.722
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 168.22801
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -47.760002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996611, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_Name
+      value: Bottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6469375693512636281, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68c17215a632ed44b6930e4d4493c63, type: 2}
+    - target: {fileID: 7105008126344685745, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: interactionTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7105008126344685745, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: radius
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5519899311941996609, guid: 4d5de77574eac6e4697ff91bdc8c890b, type: 3}
+    - {fileID: 7105008126344685745, guid: 4d5de77574eac6e4697ff91bdc8c890b, type: 3}
+    - {fileID: 2793858025932463746, guid: 4d5de77574eac6e4697ff91bdc8c890b, type: 3}
+    - {fileID: 1601077413287277769, guid: 4d5de77574eac6e4697ff91bdc8c890b, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 4d5de77574eac6e4697ff91bdc8c890b, type: 3}
+--- !u!1 &5519899312072875817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5519899311941996611, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+    type: 3}
+  m_PrefabInstance: {fileID: 138350442}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &295110363
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5458618165293551293}
+    m_Modifications:
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.179
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.014
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.2701683
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.004856104
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.88969386
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.3680088
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -10.965
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 29.559002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996608, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -137.95801
+      objectReference: {fileID: 0}
+    - target: {fileID: 5519899311941996611, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_Name
+      value: Bottle
+      objectReference: {fileID: 0}
+    - target: {fileID: 6469375693512636281, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b68c17215a632ed44b6930e4d4493c63, type: 2}
+    - target: {fileID: 7105008126344685745, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: interactionTransform
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7105008126344685745, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+        type: 3}
+      propertyPath: radius
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5519899311941996609, guid: 4d5de77574eac6e4697ff91bdc8c890b, type: 3}
+    - {fileID: 7105008126344685745, guid: 4d5de77574eac6e4697ff91bdc8c890b, type: 3}
+    - {fileID: 2793858025932463746, guid: 4d5de77574eac6e4697ff91bdc8c890b, type: 3}
+    - {fileID: 1601077413287277769, guid: 4d5de77574eac6e4697ff91bdc8c890b, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 4d5de77574eac6e4697ff91bdc8c890b, type: 3}
+--- !u!1 &5519899311698007704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5519899311941996611, guid: 4d5de77574eac6e4697ff91bdc8c890b,
+    type: 3}
+  m_PrefabInstance: {fileID: 295110363}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &7297334295746117967
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 5219269308381401104}
+    m_Modifications:
+    - target: {fileID: -8484749922241856531, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -14.673316
+      objectReference: {fileID: 0}
+    - target: {fileID: -8484749922241856531, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 154.98051
+      objectReference: {fileID: 0}
+    - target: {fileID: -8484749922241856531, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 3.3905652
+      objectReference: {fileID: 0}
+    - target: {fileID: -8444160558371813048, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 19.614792
+      objectReference: {fileID: 0}
+    - target: {fileID: -7660024741500768714, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 56.444668
+      objectReference: {fileID: 0}
+    - target: {fileID: -7660024741500768714, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: -7660024741500768714, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -7597202395769576260, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -75.33968
+      objectReference: {fileID: 0}
+    - target: {fileID: -7378194070263630234, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -8.890578
+      objectReference: {fileID: 0}
+    - target: {fileID: -7378194070263630234, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -30.906342
+      objectReference: {fileID: 0}
+    - target: {fileID: -7378194070263630234, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 19.818125
+      objectReference: {fileID: 0}
+    - target: {fileID: -7047882202397631517, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 4.1748366
+      objectReference: {fileID: 0}
+    - target: {fileID: -7047882202397631517, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -3.2855675
+      objectReference: {fileID: 0}
+    - target: {fileID: -7047882202397631517, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 1.5881026
+      objectReference: {fileID: 0}
+    - target: {fileID: -6727889465536155192, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -29.569302
+      objectReference: {fileID: 0}
+    - target: {fileID: -6727889465536155192, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -15.813171
+      objectReference: {fileID: 0}
+    - target: {fileID: -6727889465536155192, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 16.757694
+      objectReference: {fileID: 0}
+    - target: {fileID: -6717819855577174182, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -16.800941
+      objectReference: {fileID: 0}
+    - target: {fileID: -6717819855577174182, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -12.611565
+      objectReference: {fileID: 0}
+    - target: {fileID: -6717819855577174182, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -13.753051
+      objectReference: {fileID: 0}
+    - target: {fileID: -6704934593212519719, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 60.836014
+      objectReference: {fileID: 0}
+    - target: {fileID: -6704934593212519719, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 97.79569
+      objectReference: {fileID: 0}
+    - target: {fileID: -6704934593212519719, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 49.769188
+      objectReference: {fileID: 0}
+    - target: {fileID: -6299755288148991391, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -3.8752098
+      objectReference: {fileID: 0}
+    - target: {fileID: -6299755288148991391, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -17.032663
+      objectReference: {fileID: 0}
+    - target: {fileID: -6299755288148991391, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 11.517101
+      objectReference: {fileID: 0}
+    - target: {fileID: -6156786629721503822, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -35.929855
+      objectReference: {fileID: 0}
+    - target: {fileID: -6156786629721503822, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 54.611473
+      objectReference: {fileID: 0}
+    - target: {fileID: -6156786629721503822, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -32.816822
+      objectReference: {fileID: 0}
+    - target: {fileID: -6144843690710403965, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 45.68492
+      objectReference: {fileID: 0}
+    - target: {fileID: -6144843690710403965, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 39.766727
+      objectReference: {fileID: 0}
+    - target: {fileID: -6144843690710403965, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -15.411306
+      objectReference: {fileID: 0}
+    - target: {fileID: -6064793391213297892, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 31.228067
+      objectReference: {fileID: 0}
+    - target: {fileID: -6007324863616438687, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 30.063992
+      objectReference: {fileID: 0}
+    - target: {fileID: -6007324863616438687, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 29.67353
+      objectReference: {fileID: 0}
+    - target: {fileID: -6007324863616438687, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -17.963274
+      objectReference: {fileID: 0}
+    - target: {fileID: -5967332607386401775, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 36.17177
+      objectReference: {fileID: 0}
+    - target: {fileID: -5930221128422119951, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 30.995308
+      objectReference: {fileID: 0}
+    - target: {fileID: -5930221128422119951, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 23.297888
+      objectReference: {fileID: 0}
+    - target: {fileID: -5930221128422119951, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 17.40766
+      objectReference: {fileID: 0}
+    - target: {fileID: -5884404786016872506, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 21.743382
+      objectReference: {fileID: 0}
+    - target: {fileID: -5884404786016872506, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 5.689243
+      objectReference: {fileID: 0}
+    - target: {fileID: -5884404786016872506, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -6.0110917
+      objectReference: {fileID: 0}
+    - target: {fileID: -5871076885011099662, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -23.880545
+      objectReference: {fileID: 0}
+    - target: {fileID: -5871076885011099662, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 34.429367
+      objectReference: {fileID: 0}
+    - target: {fileID: -5871076885011099662, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -47.27604
+      objectReference: {fileID: 0}
+    - target: {fileID: -5430613870114796445, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -4.670178
+      objectReference: {fileID: 0}
+    - target: {fileID: -5430613870114796445, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -171.55653
+      objectReference: {fileID: 0}
+    - target: {fileID: -5430613870114796445, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 170.68529
+      objectReference: {fileID: 0}
+    - target: {fileID: -5404578419702588468, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 45.338978
+      objectReference: {fileID: 0}
+    - target: {fileID: -5404578419702588468, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 43.706383
+      objectReference: {fileID: 0}
+    - target: {fileID: -5404578419702588468, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -11.377073
+      objectReference: {fileID: 0}
+    - target: {fileID: -5387377235928075422, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 17.996683
+      objectReference: {fileID: 0}
+    - target: {fileID: -5387377235928075422, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 25.882616
+      objectReference: {fileID: 0}
+    - target: {fileID: -5387377235928075422, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -28.431099
+      objectReference: {fileID: 0}
+    - target: {fileID: -5022212338393622057, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -42.56134
+      objectReference: {fileID: 0}
+    - target: {fileID: -5022212338393622057, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -4.9218755
+      objectReference: {fileID: 0}
+    - target: {fileID: -5022212338393622057, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -69.232025
+      objectReference: {fileID: 0}
+    - target: {fileID: -4966302661681065289, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -23.993795
+      objectReference: {fileID: 0}
+    - target: {fileID: -4966302661681065289, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -9.98852
+      objectReference: {fileID: 0}
+    - target: {fileID: -4966302661681065289, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 6.2037845
+      objectReference: {fileID: 0}
+    - target: {fileID: -4741852984909898186, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 5.860987
+      objectReference: {fileID: 0}
+    - target: {fileID: -4741852984909898186, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 18.9755
+      objectReference: {fileID: 0}
+    - target: {fileID: -4741852984909898186, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.6179802
+      objectReference: {fileID: 0}
+    - target: {fileID: -4549493310932328729, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -11.911066
+      objectReference: {fileID: 0}
+    - target: {fileID: -4549493310932328729, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 37.876335
+      objectReference: {fileID: 0}
+    - target: {fileID: -4549493310932328729, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -39.7049
+      objectReference: {fileID: 0}
+    - target: {fileID: -4457019257797030449, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -3.182421
+      objectReference: {fileID: 0}
+    - target: {fileID: -4457019257797030449, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 4.3234096
+      objectReference: {fileID: 0}
+    - target: {fileID: -4457019257797030449, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 18.815706
+      objectReference: {fileID: 0}
+    - target: {fileID: -4310783637258439498, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 6.19774e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: -4310783637258439498, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 5.0144296e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: -4310783637258439498, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 24.249323
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.122
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -2.638
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.333
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4214826447975076758, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 29.958523
+      objectReference: {fileID: 0}
+    - target: {fileID: -4214826447975076758, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 125.099335
+      objectReference: {fileID: 0}
+    - target: {fileID: -4214826447975076758, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 70.35713
+      objectReference: {fileID: 0}
+    - target: {fileID: -3777129602372789697, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -13.401139
+      objectReference: {fileID: 0}
+    - target: {fileID: -3777129602372789697, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -9.988512
+      objectReference: {fileID: 0}
+    - target: {fileID: -3777129602372789697, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -17.62542
+      objectReference: {fileID: 0}
+    - target: {fileID: -3669857289819514426, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35a38c7c542a5be4f8effbd7dfeba8f1, type: 2}
+    - target: {fileID: -3669857289819514426, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -3635215725286236600, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 26.532598
+      objectReference: {fileID: 0}
+    - target: {fileID: -3635215725286236600, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 35.74832
+      objectReference: {fileID: 0}
+    - target: {fileID: -3635215725286236600, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 40.923477
+      objectReference: {fileID: 0}
+    - target: {fileID: -3572793292044652342, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.960938e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: -3572793292044652342, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 4.8160635e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: -3572793292044652342, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -41.859165
+      objectReference: {fileID: 0}
+    - target: {fileID: -3310727541142130510, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -61.365025
+      objectReference: {fileID: 0}
+    - target: {fileID: -3310727541142130510, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 68.17913
+      objectReference: {fileID: 0}
+    - target: {fileID: -3310727541142130510, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -93.88171
+      objectReference: {fileID: 0}
+    - target: {fileID: -3242798547935566581, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.88075304
+      objectReference: {fileID: 0}
+    - target: {fileID: -3242798547935566581, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 43.134262
+      objectReference: {fileID: 0}
+    - target: {fileID: -3242798547935566581, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 2.1072028
+      objectReference: {fileID: 0}
+    - target: {fileID: -3221069599799094034, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 46.426094
+      objectReference: {fileID: 0}
+    - target: {fileID: -3221069599799094034, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 94.51289
+      objectReference: {fileID: 0}
+    - target: {fileID: -3221069599799094034, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 98.321434
+      objectReference: {fileID: 0}
+    - target: {fileID: -3219903444324736704, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.0888168
+      objectReference: {fileID: 0}
+    - target: {fileID: -3219903444324736704, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.030822
+      objectReference: {fileID: 0}
+    - target: {fileID: -3219903444324736704, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 25.232426
+      objectReference: {fileID: 0}
+    - target: {fileID: -3217941978850315027, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -5.5816107
+      objectReference: {fileID: 0}
+    - target: {fileID: -3217941978850315027, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -19.551287
+      objectReference: {fileID: 0}
+    - target: {fileID: -3217941978850315027, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 19.94518
+      objectReference: {fileID: 0}
+    - target: {fileID: -3208196185610380204, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 26.943789
+      objectReference: {fileID: 0}
+    - target: {fileID: -3208196185610380204, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 7.2253966
+      objectReference: {fileID: 0}
+    - target: {fileID: -3208196185610380204, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 7.229704
+      objectReference: {fileID: 0}
+    - target: {fileID: -2866951695731874597, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -3.684427
+      objectReference: {fileID: 0}
+    - target: {fileID: -2866951695731874597, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.99999
+      objectReference: {fileID: 0}
+    - target: {fileID: -2866951695731874597, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90.28212
+      objectReference: {fileID: 0}
+    - target: {fileID: -2663193007347029482, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 38.37922
+      objectReference: {fileID: 0}
+    - target: {fileID: -2663193007347029482, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 89.99999
+      objectReference: {fileID: 0}
+    - target: {fileID: -2663193007347029482, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -89.65814
+      objectReference: {fileID: 0}
+    - target: {fileID: -2570245009094454732, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -10.430847
+      objectReference: {fileID: 0}
+    - target: {fileID: -2570245009094454732, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -3.5595648
+      objectReference: {fileID: 0}
+    - target: {fileID: -2570245009094454732, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 13.451121
+      objectReference: {fileID: 0}
+    - target: {fileID: -2398874587085011204, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.6768165
+      objectReference: {fileID: 0}
+    - target: {fileID: -2398874587085011204, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -12.038642
+      objectReference: {fileID: 0}
+    - target: {fileID: -2398874587085011204, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 6.565241
+      objectReference: {fileID: 0}
+    - target: {fileID: -2351473132111551002, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 11.110567
+      objectReference: {fileID: 0}
+    - target: {fileID: -2351473132111551002, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 49.157543
+      objectReference: {fileID: 0}
+    - target: {fileID: -2351473132111551002, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.0045620203
+      objectReference: {fileID: 0}
+    - target: {fileID: -2095758244204148019, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -12.917903
+      objectReference: {fileID: 0}
+    - target: {fileID: -2095758244204148019, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -53.481068
+      objectReference: {fileID: 0}
+    - target: {fileID: -2095758244204148019, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -8.130571
+      objectReference: {fileID: 0}
+    - target: {fileID: -1742951332284415089, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 27.893162
+      objectReference: {fileID: 0}
+    - target: {fileID: -1742951332284415089, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 6.330095
+      objectReference: {fileID: 0}
+    - target: {fileID: -1742951332284415089, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.83658224
+      objectReference: {fileID: 0}
+    - target: {fileID: -1689591895374445041, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 4.890989
+      objectReference: {fileID: 0}
+    - target: {fileID: -1689591895374445041, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -172.03156
+      objectReference: {fileID: 0}
+    - target: {fileID: -1689591895374445041, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 147.0825
+      objectReference: {fileID: 0}
+    - target: {fileID: -1643319174108084422, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -8.028847
+      objectReference: {fileID: 0}
+    - target: {fileID: -1643319174108084422, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 17.313393
+      objectReference: {fileID: 0}
+    - target: {fileID: -1643319174108084422, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -13.7346115
+      objectReference: {fileID: 0}
+    - target: {fileID: -1585945348602560265, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35a38c7c542a5be4f8effbd7dfeba8f1, type: 2}
+    - target: {fileID: -1585945348602560265, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1425147803940146089, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 1.2430959
+      objectReference: {fileID: 0}
+    - target: {fileID: -1425147803940146089, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.7142658
+      objectReference: {fileID: 0}
+    - target: {fileID: -1425147803940146089, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -24.542984
+      objectReference: {fileID: 0}
+    - target: {fileID: -1402005114689344615, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 17.044949
+      objectReference: {fileID: 0}
+    - target: {fileID: -1402005114689344615, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 7.2255874
+      objectReference: {fileID: 0}
+    - target: {fileID: -1402005114689344615, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -177.59103
+      objectReference: {fileID: 0}
+    - target: {fileID: -1051755407229770726, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -9.790101
+      objectReference: {fileID: 0}
+    - target: {fileID: -1051755407229770726, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.935031
+      objectReference: {fileID: 0}
+    - target: {fileID: -1051755407229770726, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 11.17832
+      objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_Name
+      value: Dementum_with animations
+      objectReference: {fileID: 0}
+    - target: {fileID: -827496054670987532, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -44.28329
+      objectReference: {fileID: 0}
+    - target: {fileID: -724429576301248434, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35a38c7c542a5be4f8effbd7dfeba8f1, type: 2}
+    - target: {fileID: -724429576301248434, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -470866274702290074, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -13.544971
+      objectReference: {fileID: 0}
+    - target: {fileID: -420708816316426324, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -22.253826
+      objectReference: {fileID: 0}
+    - target: {fileID: -420708816316426324, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 16.625818
+      objectReference: {fileID: 0}
+    - target: {fileID: -420708816316426324, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -8.265858
+      objectReference: {fileID: 0}
+    - target: {fileID: -381163910321073623, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 43.054874
+      objectReference: {fileID: 0}
+    - target: {fileID: -381163910321073623, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 17.54736
+      objectReference: {fileID: 0}
+    - target: {fileID: -381163910321073623, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -27.184277
+      objectReference: {fileID: 0}
+    - target: {fileID: -227987274683137149, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -23.466751
+      objectReference: {fileID: 0}
+    - target: {fileID: -227987274683137149, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -151.32416
+      objectReference: {fileID: 0}
+    - target: {fileID: -227987274683137149, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 135.55461
+      objectReference: {fileID: 0}
+    - target: {fileID: -154858601889141095, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -41.85874
+      objectReference: {fileID: 0}
+    - target: {fileID: 72352375094504965, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -20.903944
+      objectReference: {fileID: 0}
+    - target: {fileID: 72352375094504965, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 25.391256
+      objectReference: {fileID: 0}
+    - target: {fileID: 72352375094504965, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -39.566036
+      objectReference: {fileID: 0}
+    - target: {fileID: 133202708317454476, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.6531042
+      objectReference: {fileID: 0}
+    - target: {fileID: 133202708317454476, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -179.64792
+      objectReference: {fileID: 0}
+    - target: {fileID: 133202708317454476, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 7.9349456
+      objectReference: {fileID: 0}
+    - target: {fileID: 416839550124461599, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 7.6459804
+      objectReference: {fileID: 0}
+    - target: {fileID: 416839550124461599, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 34.27393
+      objectReference: {fileID: 0}
+    - target: {fileID: 416839550124461599, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 42.04342
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508933734225535135, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -36.668594
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508933734225535135, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -70.40175
+      objectReference: {fileID: 0}
+    - target: {fileID: 1508933734225535135, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 88.523445
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529491257223759331, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 15.737237
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529491257223759331, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 11.731381
+      objectReference: {fileID: 0}
+    - target: {fileID: 1529491257223759331, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -13.24029
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565676855936763407, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 24.883118
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565676855936763407, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.7846362
+      objectReference: {fileID: 0}
+    - target: {fileID: 1565676855936763407, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.14908218
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608977588944167659, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -14.242603
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608977588944167659, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 59.451466
+      objectReference: {fileID: 0}
+    - target: {fileID: 1608977588944167659, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -168.8937
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639093632398112113, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.1678622
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639093632398112113, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -2.2186353
+      objectReference: {fileID: 0}
+    - target: {fileID: 1639093632398112113, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -9.2238655
+      objectReference: {fileID: 0}
+    - target: {fileID: 1805788504018334634, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35a38c7c542a5be4f8effbd7dfeba8f1, type: 2}
+    - target: {fileID: 1805788504018334634, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1858520357566428903, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -18.197765
+      objectReference: {fileID: 0}
+    - target: {fileID: 1858520357566428903, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -7.088155
+      objectReference: {fileID: 0}
+    - target: {fileID: 1858520357566428903, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 9.05936
+      objectReference: {fileID: 0}
+    - target: {fileID: 2128023882467883251, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -6.790917
+      objectReference: {fileID: 0}
+    - target: {fileID: 2128023882467883251, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -29.495386
+      objectReference: {fileID: 0}
+    - target: {fileID: 2128023882467883251, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 34.53944
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479918832236512283, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 17.045223
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479918832236512283, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 7.2684665
+      objectReference: {fileID: 0}
+    - target: {fileID: 2479918832236512283, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 7.28237
+      objectReference: {fileID: 0}
+    - target: {fileID: 2518260654088895479, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35a38c7c542a5be4f8effbd7dfeba8f1, type: 2}
+    - target: {fileID: 2518260654088895479, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2660970005323731842, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7933a3ae04d5c6540a8352422c93f107, type: 2}
+    - target: {fileID: 2660970005323731842, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2745745442466084473, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 9.585617
+      objectReference: {fileID: 0}
+    - target: {fileID: 2745745442466084473, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 3.4689953
+      objectReference: {fileID: 0}
+    - target: {fileID: 2745745442466084473, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 9.294196
+      objectReference: {fileID: 0}
+    - target: {fileID: 2839693291445370911, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.20958759
+      objectReference: {fileID: 0}
+    - target: {fileID: 3394530512683355874, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -35.812767
+      objectReference: {fileID: 0}
+    - target: {fileID: 3394530512683355874, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -20.827057
+      objectReference: {fileID: 0}
+    - target: {fileID: 3394530512683355874, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -12.550346
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533301973257746666, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -8.0677645e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533301973257746666, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.1879835e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3533301973257746666, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -2.9823534e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3598202750588058466, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 11.050848
+      objectReference: {fileID: 0}
+    - target: {fileID: 3598202750588058466, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -61.88206
+      objectReference: {fileID: 0}
+    - target: {fileID: 3598202750588058466, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 16.093718
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639613237958985263, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -6.71632
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639613237958985263, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 45.058872
+      objectReference: {fileID: 0}
+    - target: {fileID: 3639613237958985263, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.43016192
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692462683663845446, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 17.692087
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692462683663845446, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -12.599238
+      objectReference: {fileID: 0}
+    - target: {fileID: 3692462683663845446, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 30.762108
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754029184636764047, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -39.884075
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754029184636764047, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -62.77699
+      objectReference: {fileID: 0}
+    - target: {fileID: 3754029184636764047, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 88.61891
+      objectReference: {fileID: 0}
+    - target: {fileID: 3792207052050646893, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 64.470436
+      objectReference: {fileID: 0}
+    - target: {fileID: 3792207052050646893, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 117.804695
+      objectReference: {fileID: 0}
+    - target: {fileID: 3792207052050646893, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 68.037926
+      objectReference: {fileID: 0}
+    - target: {fileID: 3943568624797321814, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.3396908
+      objectReference: {fileID: 0}
+    - target: {fileID: 3943568624797321814, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.9966277
+      objectReference: {fileID: 0}
+    - target: {fileID: 3943568624797321814, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 40.617317
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238468814141094364, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.9009308e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238468814141094364, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 2.070981e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4238468814141094364, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 104.66034
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680957867495998247, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 6.1844068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680957867495998247, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 27.818132
+      objectReference: {fileID: 0}
+    - target: {fileID: 4680957867495998247, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -11.3301325
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819250907087825710, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.6531005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819250907087825710, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.3520542
+      objectReference: {fileID: 0}
+    - target: {fileID: 4819250907087825710, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -11.645896
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874812339588122398, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -5.323218
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874812339588122398, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 20.49447
+      objectReference: {fileID: 0}
+    - target: {fileID: 4874812339588122398, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0.8893399
+      objectReference: {fileID: 0}
+    - target: {fileID: 4882072351393934419, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.979364
+      objectReference: {fileID: 0}
+    - target: {fileID: 4882072351393934419, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.254469
+      objectReference: {fileID: 0}
+    - target: {fileID: 4882072351393934419, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 23.933924
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445046550983002215, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -2.5270946
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445046550983002215, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 3.430156
+      objectReference: {fileID: 0}
+    - target: {fileID: 5445046550983002215, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 19.622274
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561264770629444238, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -8.113089e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561264770629444238, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.2021063e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5561264770629444238, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574265302523823268, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 6.1904616
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574265302523823268, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 7.383856
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574265302523823268, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 73.76002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5878474344120338660, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7933a3ae04d5c6540a8352422c93f107, type: 2}
+    - target: {fileID: 5878474344120338660, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_UpdateWhenOffscreen
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021096343741150231, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -8.0677645e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021096343741150231, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.1879835e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021096343741150231, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -2.9823534e-13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6044768078697191895, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 30.730652
+      objectReference: {fileID: 0}
+    - target: {fileID: 6044768078697191895, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 24.88239
+      objectReference: {fileID: 0}
+    - target: {fileID: 6044768078697191895, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -22.494118
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167443047722603191, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -13.57997
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167443047722603191, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -46.263065
+      objectReference: {fileID: 0}
+    - target: {fileID: 6167443047722603191, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 41.313774
+      objectReference: {fileID: 0}
+    - target: {fileID: 6203803938620547885, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -46.643032
+      objectReference: {fileID: 0}
+    - target: {fileID: 6203803938620547885, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -34.548996
+      objectReference: {fileID: 0}
+    - target: {fileID: 6203803938620547885, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 43.005657
+      objectReference: {fileID: 0}
+    - target: {fileID: 6651480985556957339, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 8.397095
+      objectReference: {fileID: 0}
+    - target: {fileID: 6651480985556957339, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 163.98572
+      objectReference: {fileID: 0}
+    - target: {fileID: 6651480985556957339, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 164.64076
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408317114965428619, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -1.4263175
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408317114965428619, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -2.012683
+      objectReference: {fileID: 0}
+    - target: {fileID: 7408317114965428619, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 6.716162
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261108318384307563, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 28.617188
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303949591749157219, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 3.684419
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303949591749157219, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 8303949591749157219, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -89.71787
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364244383467815582, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 59.675404
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364244383467815582, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 3.2045047
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364244383467815582, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -69.62234
+      objectReference: {fileID: 0}
+    - target: {fileID: 8392031655918887282, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 7.197424
+      objectReference: {fileID: 0}
+    - target: {fileID: 8392031655918887282, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -155.44594
+      objectReference: {fileID: 0}
+    - target: {fileID: 8392031655918887282, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 11.415708
+      objectReference: {fileID: 0}
+    - target: {fileID: 8422805840581920723, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.44884342
+      objectReference: {fileID: 0}
+    - target: {fileID: 8422805840581920723, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -91.39736
+      objectReference: {fileID: 0}
+    - target: {fileID: 8422805840581920723, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -86.55444
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448961276832927683, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 18.223392
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448961276832927683, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 136.66876
+      objectReference: {fileID: 0}
+    - target: {fileID: 8448961276832927683, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 140.62187
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499504972441993845, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -25.017197
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499504972441993845, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -20.290901
+      objectReference: {fileID: 0}
+    - target: {fileID: 8499504972441993845, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -6.997099
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507203272490782805, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -35.214005
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507203272490782805, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -33.904587
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507203272490782805, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 43.753807
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565752965835820985, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -8.113089e-14
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565752965835820985, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -1.2021063e-12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8565752965835820985, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786763898839406166, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -44.420948
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786763898839406166, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 1.4254034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8786763898839406166, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -10.738017
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812755428360695350, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 53.619118
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812755428360695350, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 138.56967
+      objectReference: {fileID: 0}
+    - target: {fileID: 8812755428360695350, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 80.766754
+      objectReference: {fileID: 0}
+    - target: {fileID: 8877893822013423227, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 35a38c7c542a5be4f8effbd7dfeba8f1, type: 2}
+    - target: {fileID: 8988994350927297125, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -14.55827
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988994350927297125, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -14.568193
+      objectReference: {fileID: 0}
+    - target: {fileID: 8988994350927297125, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -9.060464
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: -5716681864270162303, guid: 8d876c0f6d73b784d9ab38ca5b8f85da, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 8d876c0f6d73b784d9ab38ca5b8f85da, type: 3}
+--- !u!1 &1613621237768411206 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -927199367670048503, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+    type: 3}
+  m_PrefabInstance: {fileID: 7297334295746117967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2323824626530036309 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+    type: 3}
+  m_PrefabInstance: {fileID: 7297334295746117967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &3948088798866388312 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6021096343741150231, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+    type: 3}
+  m_PrefabInstance: {fileID: 7297334295746117967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2301484065781715814 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -381163910321073623, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+    type: 3}
+  m_PrefabInstance: {fileID: 7297334295746117967}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &5458618165293551293 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -5871076885011099662, guid: 8d876c0f6d73b784d9ab38ca5b8f85da,
+    type: 3}
+  m_PrefabInstance: {fileID: 7297334295746117967}
+  m_PrefabAsset: {fileID: 0}
